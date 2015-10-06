@@ -19,6 +19,8 @@
     "src/bower_components"
   ],
   "dependencies": {
-    "handlebars": "~4.0.3"
+    "bootstrap": "~3.3.5",
+    "ember-data": "~2.1.0",
+    "ember-simple-auth": "~0.8.0"
   }
 }
