@@ -1,0 +1,25 @@
+{
+  "name": "ember-playground",
+  "version": "1.0.0",
+  "homepage": "https://github.com/amarriner/ember-playground",
+  "authors": [
+    "Aaron Marriner (marrinea@strose.edu)"
+  ],
+  "description": "Playing Around with EmberJS",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "ember-data": "~2.1.0"
+  }
+}
