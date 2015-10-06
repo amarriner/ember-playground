@@ -1,0 +1,19 @@
+{
+  "name": "ember-playground",
+  "version": "1.0.0",
+  "description": "Messing Around with EmberJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amarriner/ember-playground"
+  },
+  "author": "Aaron Marriner (marrinea@strose.edu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarriner/ember-playground/issues"
+  },
+  "homepage": "https://github.com/amarriner/ember-playground"
+}
