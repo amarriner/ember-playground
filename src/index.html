@@ -1,11 +1,15 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ember.js • TodoMVC</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ember.js • TodoMVC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script type="text/x-handlebars" data-template-name="todos">
+
     <section id="todoapp">
       <header id="header">
         <h1>todos</h1>
@@ -16,15 +20,18 @@
         <ul id="todo-list">
           <li class="completed">
             <input type="checkbox" class="toggle">
-            <label>Learn Ember.js</label><button class="destroy"></button>
+            <label>Learn Ember.js</label>
+            <button class="destroy"></button>
           </li>
           <li>
             <input type="checkbox" class="toggle">
-            <label>...</label><button class="destroy"></button>
+            <label>...</label>
+            <button class="destroy"></button>
           </li>
           <li>
             <input type="checkbox" class="toggle">
-            <label>Profit!</label><button class="destroy"></button>
+            <label>Profit!</label>
+            <button class="destroy"></button>
           </li>
         </ul>
 
@@ -56,5 +63,18 @@
     <footer id="info">
       <p>Double-click to edit a todo</p>
     </footer>
-  </body>
+
+  </script>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/handlebars/handlebars.min.js"></script>
+  <script src="bower_components/ember/ember.min.js"></script>
+  <script src="bower_components/ember/ember-template-compiler.js"></script>
+  <script src="bower_components/ember-data/ember-data.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/router.js"></script>
+
+</body>
+
 </html>
